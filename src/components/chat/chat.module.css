@@ -6,11 +6,14 @@
   display: flex;
   flex-direction: column;
   overflow-y: scroll;
+  scrollbar-width: 0.5rem;
 }
 
 .chatContainer::-webkit-scrollbar{
   width: 0.5em;
 }
+
+
 
 .msgEnd{
   margin: 20px;
