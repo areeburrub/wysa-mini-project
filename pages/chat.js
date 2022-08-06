@@ -17,7 +17,7 @@ export default function Chat() {
 
       <main className={styles.main} style={{background: `linear-gradient(239.26deg, ${theme.background1} 63.17%, ${theme.background2} 94.92%)`}}>
         <ThemeMenu/>
-        <div className={styles.title}>Chat</div>
+        {/* <div className={styles.title}>Chat</div> */}
         <ChatBox />
       </main>
     </div>

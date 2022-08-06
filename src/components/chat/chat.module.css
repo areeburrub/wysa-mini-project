@@ -1,7 +1,7 @@
 .chatContainer{
   width: 90%;
   max-width: 1000px;
-  height: 80vh;
+  height: 85vh;
   margin: 20px auto;
   display: flex;
   flex-direction: column;
@@ -29,8 +29,7 @@
   outline: none;
   border: 1px solid #ccc;
   border-radius: 5px;
-  padding: 20px;
-  margin: 10px auto;
+  padding: 2vh calc(min(5vw,20px));
   font-size: 1.2em;
   font-family: 'Roboto', sans-serif;
   border-radius: 50px;

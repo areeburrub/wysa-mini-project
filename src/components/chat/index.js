@@ -29,7 +29,7 @@ const ChatBox = () => {
       type: "botMsg",
     }
   ];
-  
+
   const [messagesState, setMessagesState] = useState(messages);
   const [userInput, setUserInput] = useState('');
 

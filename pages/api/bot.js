@@ -32,18 +32,20 @@ export default function handler(req, res) {
     });
     } , 1000);
   }
-  setTimeout(() => {
-    res.status(200).json({
-      messages : [
-      {
-      type: 'botMsg',
-      text: 'This is a Hardcoded response',
-      },
-      {
-      type: 'botMsg',
-      text: 'type image to get an image',
-      },
-    ]
-  });
-  } , 1000);
+  else{
+    setTimeout(() => {
+      res.status(200).json({
+        messages : [
+        {
+        type: 'botMsg',
+        text: 'This is a Hardcoded response',
+        },
+        {
+        type: 'botMsg',
+        text: 'type image to get an image',
+        },
+      ]
+    });
+    } , 1000);
+  }
 }
