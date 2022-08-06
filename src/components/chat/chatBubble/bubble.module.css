@@ -1,0 +1,53 @@
+@keyframes popout {
+    from{transform:scale(0)}
+    80%{transform:scale(1.2)}
+    to{transform:scale(1)}
+}
+
+.botMsg{
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  max-width: 60%;
+  word-wrap: break-word;
+  float: left;
+  width: fit-content;
+  font-size: 2ch;
+  font-family: 'Open Sans', sans-serif;
+  animation: popout .3s ease;
+  transform-origin:left top;
+}
+
+
+
+.botImg img{
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  max-width: 80%;
+  float: left;
+  width: fit-content;
+  max-width: 300px;
+  max-height: 400px;
+  animation: popout .3s ease;
+  transform-origin:left top;
+  margin-bottom: 10px;
+}
+
+
+.userMsg{
+  background-color: #4B7E8E;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  max-width: 60%;
+  word-wrap: break-word;
+  text-align: right;
+  float: right;
+  width: fit-content;
+  font-size: 2ch;
+  font-family: 'Open Sans', sans-serif;
+  animation: popout .3s ease;
+  transform-origin:right top;
+}
